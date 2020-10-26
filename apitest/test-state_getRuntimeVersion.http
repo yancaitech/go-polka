@@ -1,0 +1,9 @@
+POST http://localhost:9933 HTTP/1.1
+content-type: application/json
+
+{
+    "id": 1,
+    "jsonrpc": "2.0",
+    "method": "state_getRuntimeVersion",
+    "params": ["0x4bbb7ce562d16cae672da15c2bdfb65c0cfc0f57458dd2cb423a88293a92a0fa"]
+}

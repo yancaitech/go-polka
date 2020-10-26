@@ -1,0 +1,9 @@
+POST http://localhost:9933 HTTP/1.1
+content-type: application/json
+
+{
+    "id": 1,
+    "jsonrpc": "2.0",
+    "method": "author_submitExtrinsic",
+    "params": ["0x350284a075fdd61fc3088c07ea99717b3d7616cb09473e1601632a163c70b9937897470198666fd333f406d17cc6e003fdc8f919dfa1f8db907ade1c1800db04edb4d136148bd0176d9384c6187c49e9824db49bff5613990866668c918c53ca7b597f8600000005006c2ef02194286def48570850c16a1b9ebde49a3a766b8dbef19f9b3b4687580c0760ddc19c04"]
+}

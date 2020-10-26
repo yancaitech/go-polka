@@ -1,0 +1,9 @@
+POST http://localhost:9933 HTTP/1.1
+content-type: application/json
+
+{
+    "id": 1,
+    "jsonrpc": "2.0",
+    "method": "chain_getBlock",
+    "params": ["0xdb339696867a30ab3810d538324ce20b010bf9280ea5e2e6b48d630d907c5a1c"]
+}

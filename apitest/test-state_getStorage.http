@@ -1,0 +1,9 @@
+POST http://localhost:9933 HTTP/1.1
+content-type: application/json
+
+{
+    "id": 1,
+    "jsonrpc": "2.0",
+    "method": "state_getStorage",
+    "params": ["0xc2261276cc9d1f8598ea4b6a74b15c2f218f26c73add634897550b4003b26bc600864d7856330936babd0f2130910648369e319d0c1e71ffecfe16b614f13253549f2ff0c6db558dafae395ebd5a300c"]
+}

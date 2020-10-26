@@ -1,0 +1,68 @@
+{
+	"meta": {
+		"authors": ["WEB3SCAN", "POLKASCAN", "openAware BV"]
+	},
+	"errors": [],
+	"data": {
+		"type": "account",
+		"id": "40862cfb2c1560276fa4f8a28336fab90e80b7e57800d8317a872da6076bdb0f",
+		"attributes": {
+			"id": "40862cfb2c1560276fa4f8a28336fab90e80b7e57800d8317a872da6076bdb0f",
+			"address": "12TbvYR6Jh65irwpUUGdLhdPCHP31dNZtrsT46iZR2Bqubob",
+			"index_address": null,
+			"is_reaped": false,
+			"is_validator": false,
+			"was_validator": false,
+			"is_nominator": false,
+			"was_nominator": false,
+			"is_council_member": false,
+			"was_council_member": false,
+			"is_tech_comm_member": false,
+			"was_tech_comm_member": false,
+			"is_registrar": false,
+			"was_registrar": false,
+			"is_sudo": false,
+			"was_sudo": false,
+			"is_treasury": false,
+			"is_contract": false,
+			"count_reaped": 0,
+			"hash_blake2b": "543fa725a9a8515a1451d181c7888a24d8d16ffa36526c6b1c2ec1c033bafde3",
+			"balance_total": 30083299997.0,
+			"balance_free": 30083299997.0,
+			"balance_reserved": 0.0,
+			"nonce": 6,
+			"account_info": null,
+			"has_identity": false,
+			"has_subidentity": false,
+			"identity_display": null,
+			"identity_legal": null,
+			"identity_web": null,
+			"identity_riot": null,
+			"identity_email": null,
+			"identity_twitter": null,
+			"identity_judgement_good": 0,
+			"identity_judgement_bad": 0,
+			"parent_identity": null,
+			"subidentity_display": null,
+			"created_at_block": 2087709,
+			"updated_at_block": 2087709,
+			"balance_history": [{
+				"name": "Total balance",
+				"type": "line",
+				"data": [
+					[2087709, 0.051],
+					[2089091, 0.030847],
+					[2089321, 0.030695],
+					[2089544, 0.030542],
+					[2089617, 0.030387999999],
+					[2089984, 0.030235799998],
+					[2090000, 0.030235799998],
+					[2099277, 0.030083299997],
+					[2100000, 0.030083299997],
+					[2101429, 0.029931179997]
+				]
+			}]
+		}
+	},
+	"links": {}
+}
