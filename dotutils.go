@@ -11,7 +11,7 @@ import (
 	"github.com/itering/scale.go/types"
 	iutiles "github.com/itering/scale.go/utiles"
 	"github.com/yancaitech/go-polka/config"
-	"github.com/yancaitech/go-polka/model/v11"
+	v11 "github.com/yancaitech/go-polka/model/v11"
 	"github.com/yancaitech/go-polka/ss58"
 	"github.com/yancaitech/go-polka/tx"
 	gu "github.com/yancaitech/go-utils"
@@ -32,6 +32,17 @@ func DotAddress(prikey, prefix []byte) (addr string, err error) {
 	if err != nil {
 		return "", err
 	}
+	pub := pubK.Encode()
+	addr, err = ss58.Encode(pub[:], prefix)
+	if err != nil {
+		return "", err
+	}
+	return addr, nil
+}
+
+// DotAddressFromPublicKey func
+func DotAddressFromPublicKey(pubkey [32]byte, prefix []byte) (addr string, err error) {
+	pubK := sr25519.NewPublicKey(pubkey)
 	pub := pubK.Encode()
 	addr, err = ss58.Encode(pub[:], prefix)
 	if err != nil {
