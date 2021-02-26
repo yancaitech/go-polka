@@ -42,9 +42,7 @@ func DotAddress(prikey, prefix []byte) (addr string, err error) {
 
 // DotAddressFromPublicKey func
 func DotAddressFromPublicKey(pubkey [32]byte, prefix []byte) (addr string, err error) {
-	pubK := sr25519.NewPublicKey(pubkey)
-	pub := pubK.Encode()
-	addr, err = ss58.Encode(pub[:], prefix)
+	addr, err = ss58.Encode(pubkey[:], prefix)
 	if err != nil {
 		return "", err
 	}
